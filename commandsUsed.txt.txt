@@ -1,0 +1,9 @@
+git config --global user.name "Pushpendra Pal"
+git config --global user.email "pushpendrapal9516@gmail.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status    #Just to see
+git remote add origin <paste the ssh of the repository>
+git push origin master
